@@ -42,3 +42,7 @@ export const flecha =()=>{
 function funcseption(){
     console.log("funcseption")
 }
+
+export function funcionTexto(texto){
+    console.log("imprimir: ", texto.textContent)
+}

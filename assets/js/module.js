@@ -1,6 +1,6 @@
 // importacion nombrada
 // se le dice asi porque lleva llaves y esta tiene que escribirse de manera literal como fue escrita la funcion
-import { consola, retorno, suma, flecha } from "./scripts.js";
+import { consola, retorno, suma, flecha, funcionTexto } from "./scripts.js";
 
 // importación por defecto
 // cuando hacemos importacion por defecto, nosotros podemos renombrar en la importacion el nombre de la funcion por defecto del fichero
@@ -32,3 +32,8 @@ flecha();
 
 
 // la cascada puede ser saltada con funciones y clases (luego veremos clases), esto quiere decir que si necesitas llamar a una funcion dentro del mismo fichero, puedes hacerlo antes de la linea de declaracion, ya que la cascada no lee funciones, solo lee el llamado de las mismas y es la variable o el mismo llamado quien se encarga de buscarlo
+
+
+const texto=document.getElementById("texto")
+
+funcionTexto(texto)
