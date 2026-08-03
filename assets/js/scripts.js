@@ -35,4 +35,10 @@ export function suma(numA, numB){
 
 export const flecha =()=>{
     console.log("funcion de flecha")
+    funcseption()
+}
+
+
+function funcseption(){
+    console.log("funcseption")
 }
